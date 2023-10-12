@@ -8,7 +8,6 @@ puts 'Je récupère les 10 premières devises de la liste'
 
 def scrapping
   page = Nokogiri::HTML(URI.open('https://coinmarketcap.com/all/views/all/'))
- 
   return page
 end
 
